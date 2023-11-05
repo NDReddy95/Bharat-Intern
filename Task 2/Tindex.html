@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="Tstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&family=Rubik:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class="heading">
+                <h1>
+                    Temperature Converter
+                </h1>
+            </div>
+        </header>
+        <div class="converterbox">
+            <div class="converter">
+                <label for="celsius">Celsius:</label><br>
+                <input type="number" id="celsius" class="inp">
+                <br><br>
+                <label for="fahrenheit">Fahrenheit:</label><br>
+                <input type="number" id="fahrenheit" class="inp">
+                <br><br>
+                <button onclick="convertToFahrenheit()">Convert to Fahrenheit</button><br>
+                <button onclick="convertToCelsius()">Convert to Celsius</button>
+            </div>
+        </div>
+
+        <script src="Tscript.js"></script>
+        
+    </body>
+    
+    </html>
